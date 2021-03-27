@@ -7,7 +7,7 @@ import styles from './Header.module.scss'
 const Header = () => (
   <header>
     <h1>
-      <Link to="/" activeClassName={styles.activeNav}>
+      <Link to="/me" activeClassName={styles.activeNav}>
         {config.siteTitle}
       </Link>
     </h1>
